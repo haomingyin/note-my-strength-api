@@ -12,7 +12,5 @@ http.createServer(function (req, res) {
 }).listen(PORT, function (err) {
     if (err) {
         console.log(err);
-    } else {
-        console.log("Listening on port: " + PORT);
     }
 });

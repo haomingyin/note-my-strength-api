@@ -4,7 +4,7 @@
     "description": "An API written in Node.js for recording users' everyday weight lifting routine Edit",
     "main": "App.js",
     "scripts": {
-        "start": "node App.js",
+        "start": "node App.js note-my-strength-api",
         "stop": "pkill -x note-my-strength-api | cat"
     },
     "repository": {
