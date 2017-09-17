@@ -1,3 +1,5 @@
+process.title = "note-my-strength-api";
+
 const http = require("http");
 
 const PORT = 8088;

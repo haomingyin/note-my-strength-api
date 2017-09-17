@@ -4,15 +4,17 @@
     "description": "An API written in Node.js for recording users' everyday weight lifting routine Edit",
     "main": "App.js",
     "scripts": {
-        "start": "node App.js"
+        "start": "node App.js note-my-strength-api",
+        "stop": "killall note-my-strength-api | cat"
     },
     "repository": {
         "type": "git",
         "url": "git+https://github.com/haomingyin/note-my-strength-api.git"
     },
     "keywords": [
-        "weigth",
-        "lifting"
+        "weigth-lifting",
+        "gym",
+        "health"
     ],
     "author": {
         "name": "Haoming Yin",
