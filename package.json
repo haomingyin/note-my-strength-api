@@ -1,0 +1,33 @@
+{
+    "name": "note-my-strength-api",
+    "version": "1.0.0",
+    "description": "An API written in Node.js for recording users' everyday weight lifting routine Edit",
+    "main": "App.js",
+    "scripts": {
+        "start": "node App.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/haomingyin/note-my-strength-api.git"
+    },
+    "keywords": [
+        "weigth",
+        "lifting"
+    ],
+    "author": {
+        "name": "Haoming Yin",
+        "email": "me@haomingyin.com",
+        "url": "https://haomingyin.com"
+    },
+    "contributors": [
+        {
+            "name": "Ryan Wang",
+            "email": "wjlinnz@gmail.com"
+        }
+    ],
+    "license": "Apache-2.0",
+    "bugs": {
+        "url": "https://github.com/haomingyin/note-my-strength-api/issues"
+    },
+    "homepage": "https://github.com/haomingyin/note-my-strength-api#readme"
+}
