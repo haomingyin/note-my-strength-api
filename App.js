@@ -4,7 +4,7 @@ const http = require("http");
 
 const PORT = 8088;
 
-if (process.env.JENKINS_MODE) {
+if (process.env.JENKINS_MODE === true) {
     console.log = function () {
     }
 }
