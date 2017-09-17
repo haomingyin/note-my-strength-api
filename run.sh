@@ -2,6 +2,8 @@
 
 pkill -x node-my-strength-api | cat
 
+export JENKINS_MODE=true
+
 node App.js note-my-strength-api &
 
 if [ $? -eq 0 ]
