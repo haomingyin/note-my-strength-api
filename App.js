@@ -11,7 +11,7 @@ if (process.env.JENKINS_MODE === "true") {
 
 http.createServer(function (req, res) {
     res.writeHead(200, {"Content-Type": "text/html"});
-    res.write("<html><body><h1>Hello World! --V2.0</h1></body></html>");
+    res.write("<html><body><h1>Hello World! --V2.1</h1></body></html>");
     res.end();
 }).listen(PORT, function (err) {
     if (err) {
