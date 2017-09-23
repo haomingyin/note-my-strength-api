@@ -13,7 +13,6 @@ http.createServer(function (req, res) {
 </head>
 <body>
 <h1>Hello World!</h1>
-<h2>Guo jia hao shabi </h2>
 </body>
 </html>`
     );

@@ -4,7 +4,7 @@
     "description": "An API written in Node.js for recording users' everyday weight lifting routine Edit",
     "main": "App.js",
     "scripts": {
-        "start": "forever start App.js",
+        "start": "forever start -l forever.log -o out.log -e error.log App.js",
         "stop": "forever stopall"
     },
     "repository": {
